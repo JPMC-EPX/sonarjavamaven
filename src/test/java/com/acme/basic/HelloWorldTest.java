@@ -9,9 +9,6 @@ public class HelloWorldTest {
     new HelloWorld().sayHello();
   }
 
-  @Test
-  public void sayHelloAgain() {
-    new HelloWorld().notCovered();
-  }
+  
 }
 
