@@ -2,11 +2,12 @@ package com.acme.basic;
 
 public class HelloWorld {
   
-  int i;
-  int j;
+  int i=1;
+  int j=2;
 
   void sayHello() {
     System.out.println("Hello World!");
+    System.out.println("addition:"+add(i,j));
   }
 
   void notCovered() {
