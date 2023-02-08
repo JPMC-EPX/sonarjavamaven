@@ -12,5 +12,7 @@ public class HelloWorld {
   void notCovered() {
     System.out.println("This method is not covered by unit tests");
   }
-
+  int add(int i, int j){
+    return i+j;
+  }
 }
